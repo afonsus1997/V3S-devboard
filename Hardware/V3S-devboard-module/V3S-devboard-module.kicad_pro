@@ -576,6 +576,18 @@
     [
       "5d41c08e-2331-42df-a2d5-1aeb6ed4388c",
       "Root"
+    ],
+    [
+      "5949d9b7-76b3-40a2-8931-5cd58c7934ef",
+      "power"
+    ],
+    [
+      "6be0524d-f799-4dcd-9f11-7fdbf8ac11f8",
+      "DIMM"
+    ],
+    [
+      "9e2aadd3-8ea5-4fb2-81fa-245fb4fe36c4",
+      "uP"
     ]
   ],
   "text_variables": {}
