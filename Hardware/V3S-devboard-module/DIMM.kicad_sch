@@ -5071,6 +5071,7 @@
 	)
 	(label "LCD_D4"
 		(at 97.79 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

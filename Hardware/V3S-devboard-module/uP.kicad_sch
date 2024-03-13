@@ -3228,6 +3228,9 @@
 	(bus_alias "LCD_CTL"
 		(members "VSYNC" "HSYNC" "DE" "CLK")
 	)
+	(bus_alias "SDC"
+		(members "D0" "D1" "D2" "D3" "CMD" "CLK")
+	)
 	(bus_alias "SPI"
 		(members "CLK" "MISO" "MOSI" "CS")
 	)
@@ -5433,6 +5436,7 @@
 	)
 	(label "SPI.MISO"
 		(at 223.52 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5443,6 +5447,7 @@
 	)
 	(label "LCD0.VSYNC"
 		(at 162.56 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5684,6 +5689,7 @@
 	)
 	(label "SPI.CS"
 		(at 228.6 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5694,6 +5700,7 @@
 	)
 	(label "UART2.RX"
 		(at 187.96 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5825,6 +5832,7 @@
 	)
 	(label "UART0.RX"
 		(at 210.82 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,6 +5865,7 @@
 	)
 	(label "UART2.CTS"
 		(at 193.04 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6087,6 +6096,7 @@
 	)
 	(label "UART0.TX"
 		(at 208.28 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6152,6 +6162,7 @@
 	)
 	(label "SPI.CLK"
 		(at 226.06 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6162,6 +6173,7 @@
 	)
 	(label "SPI.MOSI"
 		(at 231.14 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,6 +6370,7 @@
 	)
 	(label "UART2.RTS"
 		(at 190.5 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6522,6 +6535,7 @@
 	)
 	(label "UART2.TX"
 		(at 185.42 227.33 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
