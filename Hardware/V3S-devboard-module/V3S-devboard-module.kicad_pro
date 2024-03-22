@@ -457,10 +457,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/uP/USB_N": "USB_DATA",
-      "/uP/USB_P": "USB_DATA"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -581,12 +578,12 @@
       "Root"
     ],
     [
-      "5949d9b7-76b3-40a2-8931-5cd58c7934ef",
-      "power"
-    ],
-    [
       "6be0524d-f799-4dcd-9f11-7fdbf8ac11f8",
       "DIMM"
+    ],
+    [
+      "5949d9b7-76b3-40a2-8931-5cd58c7934ef",
+      "power"
     ],
     [
       "f51f2d23-c28c-4ea4-895a-4b3207c38b48",

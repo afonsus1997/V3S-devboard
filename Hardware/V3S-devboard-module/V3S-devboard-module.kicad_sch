@@ -4792,16 +4792,6 @@
 			)
 		)
 	)
-	(bus
-		(pts
-			(xy 207.01 110.49) (xy 213.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "009182f8-ed76-44ca-ad17-6921ac9ee534")
-	)
 	(symbol
 		(lib_id "SODIMM-socket-AS0A826-H2RB-7H:AS0A826-H2RB-7H")
 		(at 60.96 354.33 90)
@@ -4828,7 +4818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SODIMM:SODIMM_DDR4_EDGE"
+		(property "Footprint" "SODIMM-socket-AS0A826-H2RB-7H:CONN-SMD_AS0A826-H2RB-7H"
 			(at 236.22 354.33 0)
 			(effects
 				(font
@@ -5660,7 +5650,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 161.29)
+		(at 219.71 92.71)
 		(size 50.8 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -5672,7 +5662,7 @@
 		)
 		(uuid "5949d9b7-76b3-40a2-8931-5cd58c7934ef")
 		(property "Sheetname" "power"
-			(at 97.79 160.5784 0)
+			(at 219.71 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5671,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 97.79 198.7046 0)
+			(at 219.71 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5726,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 104.14)
+		(at 160.02 93.98)
 		(size 49.53 34.29)
 		(fields_autoplaced yes)
 		(stroke
@@ -5748,7 +5738,7 @@
 		)
 		(uuid "f51f2d23-c28c-4ea4-895a-4b3207c38b48")
 		(property "Sheetname" "uP"
-			(at 213.36 103.4284 0)
+			(at 160.02 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,23 +5747,13 @@
 			)
 		)
 		(property "Sheetfile" "uP.kicad_sch"
-			(at 213.36 139.0146 0)
+			(at 160.02 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "ETH0{ETH}" input
-			(at 213.36 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "321fe99f-953e-4d6f-8afe-3188c0180305")
 		)
 		(instances
 			(project "V3S-devboard-module"

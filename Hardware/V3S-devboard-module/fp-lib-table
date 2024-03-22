@@ -4,4 +4,5 @@
   (lib (name "D4AR0-26001-1P40")(type "KiCad")(uri "C:/Users/Afonso Muralha/Documents/Github/V3S-devboard/Hardware/external_libs/DDR4-socket/D4AR0-26001-1P40.pretty")(options "")(descr ""))
   (lib (name "SODIMM-socket-AS0A826-H2RB-7H")(type "KiCad")(uri "C:/Users/Afonso Muralha/Documents/Github/V3S-devboard/Hardware/external_libs/DDR4-socket/SODIMM-socket-AS0A826-H2RB-7H.pretty")(options "")(descr ""))
   (lib (name "SODIMM-DDR4")(type "KiCad")(uri "C:/Users/Afonso Muralha/Documents/Github/V3S-devboard/Hardware/external_libs/SODIMM-DDR4.pretty")(options "")(descr ""))
+  (lib (name "v3s-devboard-module")(type "KiCad")(uri "${KIPRJMOD}/libs/v3s-devboard-module.pretty")(options "")(descr ""))
 )
