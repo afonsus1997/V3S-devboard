@@ -5650,6 +5650,44 @@
 		)
 	)
 	(sheet
+		(at 111.76 99.06)
+		(size 38.1 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28dc3b92-ecab-4934-a46e-011d7277e66c")
+		(property "Sheetname" "External Connector"
+			(at 111.76 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ext_conn.kicad_sch"
+			(at 111.76 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V3S-devboard-module"
+				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 219.71 92.71)
 		(size 50.8 36.83)
 		(fields_autoplaced yes)
@@ -5672,44 +5710,6 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 219.71 130.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "V3S-devboard-module"
-				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 102.87 96.52)
-		(size 44.45 26.67)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6be0524d-f799-4dcd-9f11-7fdbf8ac11f8")
-		(property "Sheetname" "DIMM"
-			(at 102.87 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DIMM.kicad_sch"
-			(at 102.87 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c"
-					(page "4")
+					(page "2")
 				)
 			)
 		)

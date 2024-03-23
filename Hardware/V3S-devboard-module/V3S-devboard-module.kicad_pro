@@ -578,16 +578,16 @@
       "Root"
     ],
     [
-      "6be0524d-f799-4dcd-9f11-7fdbf8ac11f8",
-      "DIMM"
+      "f51f2d23-c28c-4ea4-895a-4b3207c38b48",
+      "uP"
     ],
     [
       "5949d9b7-76b3-40a2-8931-5cd58c7934ef",
       "power"
     ],
     [
-      "f51f2d23-c28c-4ea4-895a-4b3207c38b48",
-      "uP"
+      "28dc3b92-ecab-4934-a46e-011d7277e66c",
+      "External Connector"
     ]
   ],
   "text_variables": {}
