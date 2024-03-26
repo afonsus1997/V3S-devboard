@@ -618,9 +618,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f07fa285-f94f-4c00-9f10-280f48c2d148")
 	)
-	(model "/m.2.3dshapes/CONN-SMD_AS0BC21-S30BE-7H.wrl"
+	(model "${KIPRJMOD}/libs/m.2_conn.3dshapes/CONN-SMD_AS0BC21-S30BE-7H.wrl"
 		(offset
-			(xyz 0 -0.08 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
