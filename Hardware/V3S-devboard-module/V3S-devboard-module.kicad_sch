@@ -8,6 +8,17 @@
 		(date "2024-03-23")
 	)
 	(lib_symbols)
+	(text "Designator prefixes:\n1 - Input power\n2 - SoC related\n"
+		(exclude_from_sim no)
+		(at 305.054 203.708 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left)
+		)
+		(uuid "87c04ebb-baab-4286-885e-c41e141bbe03")
+	)
 	(sheet
 		(at 111.76 99.06)
 		(size 38.1 27.94)
@@ -79,7 +90,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -117,7 +128,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
