@@ -5996,7 +5996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a608e72-bd28-49cb-a100-7eff1af87d70")
-		(property "Reference" "U3"
+		(property "Reference" "U102"
 			(at 176.53 33.02 0)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "U3")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -6133,7 +6133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e701fad-be14-4f67-9d5b-b061637caf99")
-		(property "Reference" "L102"
+		(property "Reference" "L103"
 			(at 93.98 56.642 90)
 			(effects
 				(font
@@ -6185,7 +6185,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "L102")
+					(reference "L103")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ace9c08-46cb-4f0e-9641-84cd35b46420")
-		(property "Reference" "R106"
+		(property "Reference" "R107"
 			(at 255.27 58.4201 0)
 			(effects
 				(font
@@ -7141,7 +7141,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "R106")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -11131,7 +11131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f03e3349-e158-40a3-933b-81af8149a8f8")
-		(property "Reference" "U2"
+		(property "Reference" "U101"
 			(at 78.994 31.75 0)
 			(effects
 				(font
@@ -11249,7 +11249,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "U2")
+					(reference "U101")
 					(unit 1)
 				)
 			)
