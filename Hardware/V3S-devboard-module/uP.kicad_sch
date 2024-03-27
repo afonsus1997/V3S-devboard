@@ -7450,7 +7450,7 @@
 		)
 		(uuid "05bb8c99-2a9d-49b7-ba60-22b8181eb9c8")
 	)
-	(text "check pinout!\n3225"
+	(text "check pinout!\n3225\nCRY-TSX3225"
 		(exclude_from_sim no)
 		(at 342.392 45.212 0)
 		(effects
@@ -7491,7 +7491,7 @@
 		)
 		(uuid "5a5eca28-221d-41ed-9dcc-73eccb3e184e")
 	)
-	(text "check pinout!\nMC-146"
+	(text "check pinout!\nMC-146\n32768"
 		(exclude_from_sim no)
 		(at 341.884 24.638 0)
 		(effects
