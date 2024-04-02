@@ -507,7 +507,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23_Small"
+		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -522,7 +522,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23_Small"
+			(property "Value" "Crystal_GND24_Small"
 				(at 1.27 2.54 0)
 				(effects
 					(font
@@ -549,7 +549,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,7 +576,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_Small_0_1"
+			(symbol "Crystal_GND24_Small_0_1"
 				(rectangle
 					(start -0.762 -1.524)
 					(end 0.762 1.524)
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_Small_1_1"
+			(symbol "Crystal_GND24_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -675,8 +675,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "3"
 						(effects
 							(font
@@ -693,8 +693,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.635)
 					(name "4"
 						(effects
 							(font
@@ -4051,7 +4051,7 @@
 		(members "RX" "TX" "RTS" "CTS")
 	)
 	(bus_alias "USB"
-		(members "USB_P" "USB_N")
+		(members "USB_P" "USB_N" "USB_ID")
 	)
 	(junction
 		(at 372.11 52.07)
@@ -4580,6 +4580,15 @@
 			(type default)
 		)
 		(uuid "a691847b-a6e5-463f-99ba-e13ed53a4810")
+	)
+	(bus_entry
+		(at 190.5 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4dead3-8556-4a22-bac4-dbe8178743ac")
 	)
 	(bus_entry
 		(at 251.46 137.16)
@@ -6382,6 +6391,16 @@
 	)
 	(bus
 		(pts
+			(xy 189.23 67.31) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954dc127-4860-4aab-8529-9a949b775f0c")
+	)
+	(bus
+		(pts
 			(xy 168.91 241.3) (xy 170.18 240.03)
 		)
 		(stroke
@@ -6782,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 71.12) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82639ee-8319-4ccf-92a4-8fa997253821")
+	)
+	(wire
+		(pts
 			(xy 54.61 172.72) (xy 76.2 172.72)
 		)
 		(stroke
@@ -6869,6 +6898,16 @@
 			(type default)
 		)
 		(uuid "c236b15c-e173-4351-b639-10c6a27252d6")
+	)
+	(bus
+		(pts
+			(xy 189.23 67.31) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4446169-77a0-4dab-8dfc-056ad6c26b5d")
 	)
 	(bus
 		(pts
@@ -7289,16 +7328,6 @@
 			(type default)
 		)
 		(uuid "f17170ab-c00a-4c43-b337-0b9b5fac0885")
-	)
-	(wire
-		(pts
-			(xy 193.04 83.82) (xy 193.04 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1968d69-8365-47a9-b3d0-0bbf6877961f")
 	)
 	(wire
 		(pts
@@ -7727,6 +7756,17 @@
 			(justify left bottom)
 		)
 		(uuid "1632d627-8784-4fe6-9d41-a020b21d60f5")
+	)
+	(label "USB{USB}"
+		(at 189.23 57.15 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "179510fa-4b61-4a2f-981a-e5dce4a4e339")
 	)
 	(label "SDC0.CLK"
 		(at 146.05 39.37 180)
@@ -8707,17 +8747,6 @@
 		)
 		(uuid "afac76c1-0ed1-4c17-a06e-f166b72843ed")
 	)
-	(label "PF6"
-		(at 193.04 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afba14cd-9216-4984-ab99-6a24fdce236a")
-	)
 	(label "X32KIN"
 		(at 350.52 27.94 0)
 		(fields_autoplaced yes)
@@ -8948,6 +8977,17 @@
 			(justify left bottom)
 		)
 		(uuid "e0d12f33-7a0d-4e6f-9c6a-c3c110f99820")
+	)
+	(label "USB.USB_ID"
+		(at 193.04 83.82 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e113863f-ed9e-4bc5-8e49-95af2a35eb6a")
 	)
 	(label "LCD_D22"
 		(at 54.61 134.62 0)
@@ -9875,6 +9915,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 345.44 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "188d7b2d-38e0-47f4-a17d-0de4985e5c66")
+		(property "Reference" "Y202"
+			(at 342.646 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24_Small"
+			(at 340.868 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 345.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 345.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50268177-7293-42a1-b820-5b4fc57b1943")
+		)
+		(pin "1"
+			(uuid "f3d3c1cf-6bba-4df2-8f6e-6e899994c81e")
+		)
+		(pin "3"
+			(uuid "7ed1057e-1542-45a5-9c15-28e456da4884")
+		)
+		(pin "4"
+			(uuid "6c4ea157-1863-4f33-a581-479b6d8d0bde")
+		)
+		(instances
+			(project "V3S-devboard-module"
+				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
+					(reference "Y202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 220.98 149.86 270)
 		(unit 1)
@@ -10404,80 +10518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23_Small")
-		(at 345.44 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3725ac50-69c6-4c90-9875-817d32648fd2")
-		(property "Reference" "Y202"
-			(at 341.376 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND23_Small"
-			(at 347.091 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 345.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
-			(at 345.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "98f004b4-f020-43e8-8351-d3274ac402d8")
-		)
-		(pin "2"
-			(uuid "d95d64c7-8c72-45b2-9508-2e67dbf115ca")
-		)
-		(pin "1"
-			(uuid "bb1db592-673a-4d30-8236-7331a5ba6f7c")
-		)
-		(pin "3"
-			(uuid "76e93912-4027-443f-9990-1d07965bf61f")
-		)
-		(instances
-			(project "V3S-devboard-module"
-				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
-					(reference "Y202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 160.02 228.6 180)
 		(unit 1)
@@ -10646,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.57 54.61 0)
 			(effects
 				(font
@@ -11452,7 +11492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 359.41 52.07 0)
 			(effects
 				(font
@@ -11870,7 +11910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.57 27.94 0)
 			(effects
 				(font
@@ -12334,7 +12374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.57 49.53 0)
 			(effects
 				(font
@@ -13122,6 +13162,80 @@
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 345.44 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aab75f43-ca51-416c-a23d-8c31d7561b4a")
+		(property "Reference" "Y201"
+			(at 342.646 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_GND24_Small"
+			(at 340.868 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 345.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 345.44 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6e90ebb-c7de-434f-abf4-f522f2577d3f")
+		)
+		(pin "1"
+			(uuid "d5460720-e065-4d11-add4-c269de34432c")
+		)
+		(pin "3"
+			(uuid "df9c3f72-2072-4a66-8bf6-5c3c64b7922a")
+		)
+		(pin "4"
+			(uuid "4d2bffb2-f391-43fa-a63f-dfcc1ffe4a4a")
+		)
+		(instances
+			(project "V3S-devboard-module"
+				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
+					(reference "Y201")
 					(unit 1)
 				)
 			)
@@ -14503,7 +14617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.57 33.02 0)
 			(effects
 				(font
@@ -15216,7 +15330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 359.41 30.48 0)
 			(effects
 				(font
@@ -15293,7 +15407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 71.12 0)
 			(effects
 				(font
@@ -15834,80 +15948,6 @@
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23_Small")
-		(at 345.44 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8572ea7-b082-44e5-8d87-20e1a4e7c041")
-		(property "Reference" "Y201"
-			(at 341.376 28.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_GND23_Small"
-			(at 347.091 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 345.44 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3, small symbol"
-			(at 345.44 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1639bd4d-817d-4379-b150-59599604dd9d")
-		)
-		(pin "2"
-			(uuid "10d06ef4-e709-47a1-a8dd-865e35dd21ea")
-		)
-		(pin "1"
-			(uuid "bded6e8e-6cd0-4326-94fe-5ef19aaf0279")
-		)
-		(pin "3"
-			(uuid "fa1f08d9-15ea-44a1-bd37-ac07183ccf72")
-		)
-		(instances
-			(project "V3S-devboard-module"
-				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
-					(reference "Y201")
 					(unit 1)
 				)
 			)
