@@ -1214,219 +1214,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_MEC_5E"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(circle
-					(center -1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5545,12 +5332,6 @@
 		(uuid "13f648f1-9f81-401b-90eb-f44919cf6b6d")
 	)
 	(junction
-		(at 350.52 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b2844e3-7410-4be6-9975-16ef91767df5")
-	)
-	(junction
 		(at 372.11 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5561,18 +5342,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f96f554-e04e-4fa6-ba27-8a0f4160fd45")
-	)
-	(junction
-		(at 360.68 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fef98f7-264d-4385-b4a6-67aee41953b2")
-	)
-	(junction
-		(at 350.52 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46ebfab2-dbeb-49b7-9504-8a2b6a6207b8")
 	)
 	(junction
 		(at 180.34 215.9)
@@ -5627,6 +5396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c003fb53-4307-47db-8889-f4ccef747c37")
+	)
+	(junction
+		(at 350.52 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2dcddfc-9966-488f-95ce-d1fd01babcee")
 	)
 	(junction
 		(at 350.52 33.02)
@@ -6657,16 +6432,6 @@
 		)
 		(uuid "1e88a7e8-abb8-4ca8-8918-2ea9902f8944")
 	)
-	(wire
-		(pts
-			(xy 360.68 85.09) (xy 363.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0e4d0b-2eb8-4834-bbec-e08a88e7ab78")
-	)
 	(bus
 		(pts
 			(xy 36.83 54.61) (xy 58.42 54.61)
@@ -6726,16 +6491,6 @@
 			(type default)
 		)
 		(uuid "23e23cb6-de66-420a-a9cc-51aff5362950")
-	)
-	(wire
-		(pts
-			(xy 350.52 87.63) (xy 350.52 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f0ba6d-015b-4653-985b-d7a2617f1e26")
 	)
 	(wire
 		(pts
@@ -6986,16 +6741,6 @@
 			(type default)
 		)
 		(uuid "3cfcac78-aefa-4364-ae59-c3d1eb392232")
-	)
-	(wire
-		(pts
-			(xy 360.68 85.09) (xy 360.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d342b5d-0f81-47f3-895a-f2bd5d73da73")
 	)
 	(bus
 		(pts
@@ -8069,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 85.09) (xy 350.52 87.63)
+			(xy 350.52 85.09) (xy 350.52 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8479,7 +8224,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 87.63) (xy 350.52 87.63)
+			(xy 353.06 85.09) (xy 350.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8549,7 +8294,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 87.63) (xy 360.68 87.63)
+			(xy 358.14 85.09) (xy 363.22 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8826,6 +8571,16 @@
 			(type default)
 		)
 		(uuid "ecbfd27c-e216-4ee6-85f0-4d1883166958")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed833caa-a9d9-4f21-a4d1-d0b8edefcade")
 	)
 	(bus
 		(pts
@@ -9468,6 +9223,17 @@
 			(justify left bottom)
 		)
 		(uuid "331614a7-6907-47cd-8eab-ff2acdee9cb7")
+	)
+	(label "RESET"
+		(at 36.83 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "334a891f-ce1a-4796-8f81-a067cb44483a")
 	)
 	(label "ADCDAC.HPCOM"
 		(at 124.46 80.01 90)
@@ -10901,6 +10667,28 @@
 		(uuid "5cad6a0a-23b7-43de-88c6-db3397eb2040")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.7454 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 36.83 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72d4a8ec-f18b-4a10-be8b-c4a339cd3002")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.5596 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,7 +14020,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 355.6 87.63 270)
+		(at 355.6 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14240,7 +14028,7 @@
 		(dnp no)
 		(uuid "97a80e0d-d867-464b-b414-b46f6afe8b82")
 		(property "Reference" "C234"
-			(at 355.6 90.932 90)
+			(at 355.6 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14248,7 +14036,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 355.6 93.472 90)
+			(at 355.6 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +14044,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 355.6 87.63 0)
+			(at 355.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14265,7 +14053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 355.6 87.63 0)
+			(at 355.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14274,7 +14062,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 355.6 87.63 0)
+			(at 355.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,7 +15072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 85.09 0)
 			(effects
 				(font
@@ -17059,82 +16847,6 @@
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
 					(reference "#PWR0310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 355.6 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e74b21d6-e7a8-4585-809e-b1e515e329e6")
-		(property "Reference" "SW201"
-			(at 355.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5E"
-			(at 354.33 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "v3s-devboard-module:SW_SKRPACE010"
-			(at 355.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 355.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 355.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43298328-babc-48d5-8110-c5ee5d5efff9")
-		)
-		(pin "2"
-			(uuid "3b33002b-972f-4ac7-ba13-5e03e363eb37")
-		)
-		(pin "3"
-			(uuid "60c2974a-d3f9-4764-8e3f-8f577e598e8e")
-		)
-		(pin "4"
-			(uuid "20692c16-d696-465d-a2f8-5f97e5813643")
-		)
-		(instances
-			(project "V3S-devboard-module"
-				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/f51f2d23-c28c-4ea4-895a-4b3207c38b48"
-					(reference "SW201")
 					(unit 1)
 				)
 			)
