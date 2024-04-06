@@ -6043,13 +6043,13 @@
 		(uuid "a691847b-a6e5-463f-99ba-e13ed53a4810")
 	)
 	(bus_entry
-		(at 190.5 68.58)
-		(size 2.54 2.54)
+		(at 137.16 240.03)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa4dead3-8556-4a22-bac4-dbe8178743ac")
+		(uuid "ab1f6578-82af-4ae2-abe4-5481f7307f5f")
 	)
 	(bus_entry
 		(at 251.46 137.16)
@@ -6409,6 +6409,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 69.85) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a564525-8a92-4e92-8b8f-765a60bcac9e")
+	)
+	(wire
+		(pts
 			(xy 359.41 54.61) (xy 367.03 54.61)
 		)
 		(stroke
@@ -6576,6 +6586,16 @@
 			(type default)
 		)
 		(uuid "1663eb74-7105-46db-bd0b-2fda09744c9f")
+	)
+	(bus
+		(pts
+			(xy 138.43 241.3) (xy 138.43 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bfeb1c-3d02-4b77-a53a-d9c4deccfc32")
 	)
 	(bus
 		(pts
@@ -6839,16 +6859,6 @@
 	)
 	(bus
 		(pts
-			(xy 134.62 240.03) (xy 139.7 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31dd87b9-ea3f-41c8-91a8-ab422cedf5a1")
-	)
-	(bus
-		(pts
 			(xy 36.83 24.13) (xy 58.42 24.13)
 		)
 		(stroke
@@ -6866,6 +6876,16 @@
 			(type default)
 		)
 		(uuid "3358466a-4968-431d-81af-851314a3c5f2")
+	)
+	(wire
+		(pts
+			(xy 139.7 215.9) (xy 139.7 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345a9ea0-0a45-4f06-95af-a86e523fa397")
 	)
 	(bus
 		(pts
@@ -7216,16 +7236,6 @@
 			(type default)
 		)
 		(uuid "51f7e031-9d48-4602-92c4-88095959655e")
-	)
-	(wire
-		(pts
-			(xy 139.7 215.9) (xy 139.7 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536796eb-94c8-47a4-bddc-c3e88501d276")
 	)
 	(wire
 		(pts
@@ -7939,16 +7949,6 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 67.31) (xy 189.23 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954dc127-4860-4aab-8529-9a949b775f0c")
-	)
-	(bus
-		(pts
 			(xy 168.91 241.3) (xy 170.18 240.03)
 		)
 		(stroke
@@ -8359,16 +8359,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b82639ee-8319-4ccf-92a4-8fa997253821")
-	)
-	(wire
-		(pts
 			(xy 54.61 172.72) (xy 76.2 172.72)
 		)
 		(stroke
@@ -8456,16 +8446,6 @@
 			(type default)
 		)
 		(uuid "c236b15c-e173-4351-b639-10c6a27252d6")
-	)
-	(bus
-		(pts
-			(xy 189.23 67.31) (xy 190.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4446169-77a0-4dab-8dfc-056ad6c26b5d")
 	)
 	(bus
 		(pts
@@ -8809,6 +8789,16 @@
 	)
 	(bus
 		(pts
+			(xy 135.89 241.3) (xy 135.89 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5eb2056-d011-435f-8ee6-73b3b894b8e9")
+	)
+	(bus
+		(pts
 			(xy 52.07 111.76) (xy 52.07 114.3)
 		)
 		(stroke
@@ -8897,6 +8887,16 @@
 		)
 		(uuid "f31eb582-e22d-4f5e-9a67-2e5868c80e56")
 	)
+	(bus
+		(pts
+			(xy 138.43 241.3) (xy 139.7 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a0b73e-9430-4dd2-927d-caebe4b3fe17")
+	)
 	(wire
 		(pts
 			(xy 339.09 85.09) (xy 342.9 85.09)
@@ -8946,6 +8946,16 @@
 			(type default)
 		)
 		(uuid "f882c5c4-5683-47b4-a435-3b0fca03a89e")
+	)
+	(bus
+		(pts
+			(xy 135.89 241.3) (xy 137.16 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dc0435-dbe5-42b7-bc91-8452a9462273")
 	)
 	(wire
 		(pts
@@ -9305,17 +9315,6 @@
 		)
 		(uuid "1632d627-8784-4fe6-9d41-a020b21d60f5")
 	)
-	(label "USB{USB}"
-		(at 189.23 57.15 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "179510fa-4b61-4a2f-981a-e5dce4a4e339")
-	)
 	(label "CSI.MCSI_MCLK"
 		(at 54.61 142.24 0)
 		(fields_autoplaced yes)
@@ -9349,7 +9348,7 @@
 		)
 		(uuid "1ef1d4be-725b-4eb9-bc4a-141d635c714a")
 	)
-	(label "PF6"
+	(label "SD_DET"
 		(at 313.69 241.3 90)
 		(fields_autoplaced yes)
 		(effects
@@ -9646,7 +9645,7 @@
 		)
 		(uuid "563bf4d7-8cf6-4a57-99bf-6b280d739c14")
 	)
-	(label "PF6"
+	(label "SD_DET"
 		(at 304.8 214.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9844,17 +9843,6 @@
 		)
 		(uuid "7124b4fc-3fd9-4c36-849e-a9fc60f0063f")
 	)
-	(label "PB2"
-		(at 139.7 231.14 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72e9e1a7-2eda-437a-b46c-bf8ff16783d3")
-	)
 	(label "LRADC0"
 		(at 38.1 66.04 0)
 		(fields_autoplaced yes)
@@ -9964,6 +9952,17 @@
 			(justify left bottom)
 		)
 		(uuid "82d0c068-ce4a-4436-b76d-a254b78b35ca")
+	)
+	(label "USB{USB}"
+		(at 135.89 251.46 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "846d51da-a4b2-409e-87d4-8541080c4b2d")
 	)
 	(label "SDC0.CMD"
 		(at 304.8 196.85 0)
@@ -10185,6 +10184,17 @@
 		)
 		(uuid "a3ac7567-d23d-4965-b9b3-33eca6247c62")
 	)
+	(label "UART2{UART}"
+		(at 138.43 256.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8ef5533-8568-4080-8dd9-1f005afa9850")
+	)
 	(label "PF3_SDC0CMD_JTAGDO1"
 		(at 322.58 241.3 0)
 		(fields_autoplaced yes)
@@ -10394,6 +10404,17 @@
 		)
 		(uuid "bb773f95-5dd3-4553-b1a3-4b3cd5ce1408")
 	)
+	(label "USB.USB_ID"
+		(at 139.7 224.79 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf608d9f-e05b-4b6a-b919-cef9b9796849")
+	)
 	(label "LCD_D4"
 		(at 54.61 195.58 0)
 		(fields_autoplaced yes)
@@ -10426,6 +10447,17 @@
 			(justify left bottom)
 		)
 		(uuid "c91147bd-5783-4cfc-a16f-ceca8b91b44b")
+	)
+	(label "SD_DET"
+		(at 193.04 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e1975c-35f1-4f0f-a316-64d5b42a2e19")
 	)
 	(label "LCD_D11"
 		(at 54.61 175.26 0)
@@ -10569,17 +10601,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0d12f33-7a0d-4e6f-9c6a-c3c110f99820")
-	)
-	(label "USB.USB_ID"
-		(at 193.04 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e113863f-ed9e-4bc5-8e49-95af2a35eb6a")
 	)
 	(label "LCD_D22"
 		(at 54.61 134.62 0)
