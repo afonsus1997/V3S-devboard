@@ -5366,9 +5366,9 @@
 		(at 105.41 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21ae9ac1-3416-4958-a794-5c69f7bc449f")
 		(property "Reference" "J301"

@@ -6388,6 +6388,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 214.63) (xy 391.16 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57461b71-b40f-4ce4-9cab-5fc6ae8341de")
+	)
+	(wire
+		(pts
 			(xy 185.42 69.85) (xy 185.42 83.82)
 		)
 		(stroke
@@ -10684,8 +10694,17 @@
 				(hide yes)
 			)
 		)
-		(property "Precision" ""
+		(property "Precision" "1%"
 			(at 159.766 229.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138002"
+			(at 157.48 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,6 +10971,15 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 345.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15643"
+			(at 345.44 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,6 +11258,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 377.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d7b3a23-606f-4994-8e4a-89e2433de745")
 		)
@@ -11497,8 +11534,17 @@
 				(hide yes)
 			)
 		)
-		(property "Precision" ""
+		(property "Precision" "1%"
 			(at 162.306 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138002"
+			(at 160.02 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,6 +11612,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 369.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541431"
+			(at 369.57 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12105,6 +12160,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1736647"
+			(at 370.84 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "3f74dbed-bdab-4764-8067-d659547ef1e4")
 		)
@@ -12165,7 +12229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.06 104.14 0)
 			(effects
 				(font
@@ -12198,6 +12262,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2828725"
+			(at 226.06 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12298,7 +12371,7 @@
 				)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "100n"
 			(at 359.41 121.412 90)
 			(effects
 				(font
@@ -12326,6 +12399,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 359.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 359.41 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,7 +12589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 201.93 0)
 			(effects
 				(font
@@ -12543,6 +12625,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138002"
+			(at 331.47 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c92d192-9765-446c-8af7-e065c0ae2f61")
 		)
@@ -12565,7 +12656,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6c2e7b79-6439-475c-911f-c1e45acae3e3")
 		(property "Reference" "R210"
 			(at 337.8201 175.26 0)
@@ -12614,6 +12705,15 @@
 		)
 		(property "Precision" "1%"
 			(at 333.248 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 336.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12814,6 +12914,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 369.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541431"
+			(at 369.57 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,6 +13321,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 369.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541431"
+			(at 369.57 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13626,6 +13744,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 355.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 355.6 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,12 +14621,21 @@
 				(hide yes)
 			)
 		)
-		(property "Precision" ""
+		(property "Precision" "1%"
 			(at 349.758 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C93943"
+			(at 345.44 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14573,6 +14709,15 @@
 		)
 		(property "Precision" "1%"
 			(at 356.616 231.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 360.68 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +15200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 391.16 214.63 0)
+		(at 392.43 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15063,7 +15208,7 @@
 		(dnp no)
 		(uuid "bd15581f-da4b-4da7-8af5-92f3d4c645f8")
 		(property "Reference" "#PWR0250"
-			(at 391.16 220.98 0)
+			(at 392.43 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15072,7 +15217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.414 217.932 90)
+			(at 392.684 217.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15081,7 +15226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 214.63 0)
+			(at 392.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15090,7 +15235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 214.63 0)
+			(at 392.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15099,7 +15244,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 391.16 214.63 0)
+			(at 392.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,6 +15458,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C60491"
+			(at 354.33 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dd1da91-4b3c-4fa3-9162-71c73e031469")
 		)
@@ -15446,6 +15600,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C541431"
+			(at 369.57 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d33ddf51-b99b-49df-911b-8d1483642044")
 		)
@@ -15517,6 +15680,15 @@
 		)
 		(property "Precision" "1%"
 			(at 343.916 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 347.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,6 +16170,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C93943"
+			(at 313.69 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39f79d76-c386-4ccd-8314-5765484d5bcb")
 		)
@@ -16176,6 +16357,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C138067"
+			(at 359.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "989f1666-c4b9-42ee-9eeb-95673b1cc957")
 		)
@@ -16251,6 +16441,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C114755"
+			(at 355.6 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

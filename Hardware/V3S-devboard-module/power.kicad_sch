@@ -3483,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0004383d-d9cd-436d-ac78-21d0f47f76ad")
-		(property "Reference" "C109"
+		(property "Reference" "C108"
 			(at 101.6 49.5235 0)
 			(effects
 				(font
@@ -3528,6 +3528,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C541431"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c0b73b5-acea-4a16-b647-59170c8b25c1")
 		)
@@ -3537,7 +3546,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C109")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -3657,6 +3666,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 54.61 144.78 0)
 			(effects
 				(font
@@ -3808,6 +3826,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C114763"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0e57d3f-5d97-477d-89da-0c995f93a150")
 		)
@@ -3870,6 +3897,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 95.25 144.78 0)
 			(effects
 				(font
@@ -3969,7 +4005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1069b6db-43d3-412e-994f-500e0009be8d")
-		(property "Reference" "C107"
+		(property "Reference" "C106"
 			(at 166.37 40.6335 0)
 			(effects
 				(font
@@ -4014,6 +4050,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5673"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "001dbcea-9698-40c0-a455-fc496af64618")
 		)
@@ -4023,7 +4068,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C107")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -4076,6 +4121,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -4146,6 +4200,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -4429,6 +4492,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C93947"
+			(at 107.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bce29be-e050-4765-a83a-23a650eb1fb9")
 		)
@@ -4491,6 +4563,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -4640,6 +4721,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C114763"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4927,9 +5017,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2f2bb681-7c6b-49b3-a473-ca1111861087")
 		(property "Reference" "J101"
@@ -5309,6 +5399,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 64.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3f88e77-294c-462c-9f8e-0464c2113149")
 		)
@@ -5577,6 +5676,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1691"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40c9ece4-687a-4ec6-9449-a8b9285cdffd")
 		)
@@ -5779,6 +5887,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1691"
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cdd91e1-fecf-4005-96d0-c0d9bfe65291")
 		)
@@ -5856,6 +5973,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C93947"
+			(at 119.38 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2cfed4ff-cbbd-40ff-b923-17108bfefda9")
 		)
@@ -5918,6 +6044,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 85.09 144.78 0)
 			(effects
 				(font
@@ -6201,6 +6336,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 64.77 144.78 0)
 			(effects
 				(font
@@ -6682,6 +6826,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C163456"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bff65c73-4f8b-4ce5-8a2b-460bd958c627")
 		)
@@ -6905,7 +7058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b1c176-4efa-4eb9-915d-9622778d23c1")
-		(property "Reference" "C110"
+		(property "Reference" "C109"
 			(at 132.08 49.5235 0)
 			(effects
 				(font
@@ -6950,6 +7103,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1691"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb223594-ab1f-4047-aba3-931255164a7b")
 		)
@@ -6959,7 +7121,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C110")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -7012,6 +7174,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -7080,6 +7251,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86092"
+			(at 93.98 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,6 +7344,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C93947"
+			(at 119.38 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84c5a005-9508-4efd-90a5-69bc98ba2f53")
 		)
@@ -7234,6 +7423,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5673"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e95012cd-499c-4b12-add0-637172db0f09")
 		)
@@ -7296,6 +7494,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -7395,7 +7602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8956e540-5f27-40b3-806b-a3199ebb6387")
-		(property "Reference" "C106"
+		(property "Reference" "Ce101"
 			(at 132.08 39.3635 0)
 			(effects
 				(font
@@ -7440,6 +7647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1691"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99692813-3fd3-470f-add6-5a31fc2b5de2")
 		)
@@ -7449,7 +7665,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C106")
+					(reference "Ce101")
 					(unit 1)
 				)
 			)
@@ -7511,6 +7727,15 @@
 		)
 		(property "Precision" "1%"
 			(at 253.746 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106231"
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,6 +7879,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2157f74-559d-4567-9abe-c73f365f646a")
 		)
@@ -7716,6 +7950,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 224.79 113.03 0)
 			(effects
 				(font
@@ -7799,6 +8042,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C60488"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8003,6 +8255,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414c903a-9ae6-40c1-b7b5-fb8ac2dd4dd0")
 		)
@@ -8065,6 +8326,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 204.47 113.03 0)
 			(effects
 				(font
@@ -8201,6 +8471,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -8477,6 +8756,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c27e780-2cd3-403b-87e4-e11887e1515f")
 		)
@@ -8605,6 +8893,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
 			(at 147.32 144.78 0)
 			(effects
 				(font
@@ -8749,6 +9046,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c23cbe18-d349-44df-be68-8bbbc4f0c4c1")
 		)
@@ -8811,6 +9117,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 123.19 113.03 0)
 			(effects
 				(font
@@ -8955,6 +9270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 243.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3d40281-3ee6-442e-85be-62c1dc49682c")
 		)
@@ -9025,6 +9349,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 74.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16354054-d34d-4b74-9bf4-be015ad9873e")
 		)
@@ -9087,6 +9420,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 52.07 39.37 0)
 			(effects
 				(font
@@ -9231,6 +9573,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 54.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b6aeec4-0983-4965-b728-574ff1980a0d")
 		)
@@ -9293,6 +9644,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 215.9 113.03 0)
 			(effects
 				(font
@@ -9429,6 +9789,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 125.73 144.78 0)
 			(effects
 				(font
@@ -9768,6 +10137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86092"
+			(at 93.98 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "351d1013-9842-4d1b-b361-bc2c75cbdbad")
 		)
@@ -9793,7 +10171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c553a00b-24fd-4206-b173-57e6782dcefd")
-		(property "Reference" "C112"
+		(property "Reference" "C111"
 			(at 132.08 59.6835 0)
 			(effects
 				(font
@@ -9838,6 +10216,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1691"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "841302aa-2de6-4450-82c0-584839a9bb08")
 		)
@@ -9847,7 +10234,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C112")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -9900,6 +10287,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 104.14 113.03 0)
 			(effects
 				(font
@@ -10110,6 +10506,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5673"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "909a5c7a-97b4-408e-948e-0f42237fa7b9")
 		)
@@ -10180,6 +10585,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbd7770a-19d7-4799-b10a-38f3521e3588")
 		)
@@ -10242,6 +10656,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C541431"
 			(at 99.06 40.64 0)
 			(effects
 				(font
@@ -10584,6 +11007,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5673"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eabf478c-c664-460d-b71a-9b12ad2dea84")
 		)
@@ -10659,6 +11091,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C60488"
+			(at 44.45 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10794,6 +11235,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86092"
+			(at 93.98 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b50240b0-3592-4c17-9983-27afb9147f1c")
 		)
@@ -10885,7 +11335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deaeb375-7e32-45e9-b177-9b79106314e0")
-		(property "Reference" "C111"
+		(property "Reference" "C110"
 			(at 101.6 59.6835 0)
 			(effects
 				(font
@@ -10930,6 +11380,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C541431"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2359d4e5-591d-4ad6-8bd4-2ff6700655f4")
 		)
@@ -10939,7 +11398,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C111")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -11058,6 +11517,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 194.31 113.03 0)
 			(effects
 				(font
@@ -11752,7 +12220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa3b9425-00c9-4a2e-86d9-13ceae79a148")
-		(property "Reference" "C108"
+		(property "Reference" "C107"
 			(at 190.5 40.6335 0)
 			(effects
 				(font
@@ -11797,6 +12265,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5673"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f89735d9-0e21-45b3-81d2-7bb7be09c8fa")
 		)
@@ -11806,7 +12283,7 @@
 		(instances
 			(project "V3S-devboard-module"
 				(path "/5d41c08e-2331-42df-a2d5-1aeb6ed4388c/5949d9b7-76b3-40a2-8931-5cd58c7934ef"
-					(reference "C108")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -11872,6 +12349,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 119.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
