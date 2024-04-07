@@ -74,7 +74,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -11 -4) (xy -11 0) (xy 11 0) (xy 11 -4)
+			(xy -11 -2.5) (xy -11 0) (xy 11 0) (xy 11 -2.5)
 		)
 		(stroke
 			(width 0.1)
@@ -86,7 +86,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -11 -4) (xy -11 0) (xy 11 0) (xy 11 -4)
+			(xy -11 -2.5) (xy -11 0) (xy 11 0) (xy 11 -2.5)
 		)
 		(stroke
 			(width 0.1)

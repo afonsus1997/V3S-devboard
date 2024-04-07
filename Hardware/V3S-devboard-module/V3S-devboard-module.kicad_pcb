@@ -6260,7 +6260,7 @@
 		(property "Reference" "J301"
 			(at 0 -6.5 0)
 			(layer "F.SilkS")
-			(uuid "79666b75-6207-4df2-971e-30c92140abf9")
+			(uuid "03eb13f8-e4a3-4a1c-a83a-61f198aa0281")
 			(effects
 				(font
 					(size 1 1)
@@ -6271,7 +6271,7 @@
 		(property "Value" "AS0BC21-S30BE-7H"
 			(at 0 -5 0)
 			(layer "F.Fab")
-			(uuid "7ce27cc5-4dd3-409c-92cc-cfdcdd12c8ba")
+			(uuid "a98c69fa-270a-4d0d-b39d-813ab58c7d1f")
 			(effects
 				(font
 					(size 1 1)
@@ -6284,7 +6284,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e19af1d-e899-49dd-9edf-d9321fe61c00")
+			(uuid "fb847e9e-1c6e-4026-9a41-5a4acdcfe84b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6296,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d12c574e-072b-47c7-a40d-d38136c66706")
+			(uuid "328dbffc-6de4-4846-a38b-4364c210787a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6308,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0696e131-8134-49e8-9cae-e38fa781e373")
+			(uuid "91ca514d-a558-4772-8ada-52be612ddebd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,8 +6329,6 @@
 			)
 		)
 		(path "/28dc3b92-ecab-4934-a46e-011d7277e66c/21ae9ac1-3416-4958-a794-5c69f7bc449f")
-		(sheetname "External Connector")
-		(sheetfile "ext_conn.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -11 -4)
@@ -6340,11 +6338,11 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a213cad-8eda-46e4-9336-ccc0af2fea2a")
+			(uuid "810217b2-e554-4a98-9f56-186760ca9740")
 		)
 		(fp_poly
 			(pts
-				(xy -11 -4) (xy -11 0) (xy 11 0) (xy 11 -4)
+				(xy -11 -2.5) (xy -11 0) (xy 11 0) (xy 11 -2.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6352,11 +6350,11 @@
 			)
 			(fill solid)
 			(layer "B.Mask")
-			(uuid "5c125122-9c70-45da-812f-66a5d794c811")
+			(uuid "821ec79c-9774-4b0e-aa6f-c40587cfa6f2")
 		)
 		(fp_poly
 			(pts
-				(xy -11 -4) (xy -11 0) (xy 11 0) (xy 11 -4)
+				(xy -11 -2.5) (xy -11 0) (xy 11 0) (xy 11 -2.5)
 			)
 			(stroke
 				(width 0.1)
@@ -6364,7 +6362,7 @@
 			)
 			(fill solid)
 			(layer "F.Mask")
-			(uuid "3a554617-8655-4920-a989-88232698a458")
+			(uuid "4fa58096-e58c-4eb6-8708-5a06fc2e460f")
 		)
 		(fp_line
 			(start 0 0)
@@ -6374,7 +6372,7 @@
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "4a2d8737-da6e-4ccf-8cf6-2138d637bdc7")
+			(uuid "2ffd0985-ea8b-4540-aeaa-28a8236c0781")
 		)
 		(fp_line
 			(start -11 -4)
@@ -6384,7 +6382,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "aa9147be-c444-4a19-9ae3-8b87c90ba037")
+			(uuid "3332869f-b046-463f-a49a-c638feb0ca8c")
 		)
 		(fp_line
 			(start -9.9 0)
@@ -6394,7 +6392,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8c00b24c-1ccd-49f7-a731-0f71fec8f5ef")
+			(uuid "89cd44d4-0d12-4b90-b951-1e58f9060631")
 		)
 		(fp_line
 			(start -9.9 0)
@@ -6404,7 +6402,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "28cd5e19-8050-4424-9f56-6cca7decdf06")
+			(uuid "a7611a10-440a-462d-90f0-1a9c146678be")
 		)
 		(fp_line
 			(start 2.025 0)
@@ -6414,7 +6412,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "25b11561-8b9f-4efc-8f22-e8a4f4fe078f")
+			(uuid "4c86f591-6300-4dbc-966c-0f12425c7b53")
 		)
 		(fp_line
 			(start 3.225 0)
@@ -6424,7 +6422,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f572dfd9-2515-4a12-9ae6-e09f1fdb89d0")
+			(uuid "916d1edb-38f2-42f5-bd00-3d6459777d24")
 		)
 		(fp_line
 			(start 9.9 0)
@@ -6434,7 +6432,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c2038088-dac0-4029-b659-5f66de9fdedf")
+			(uuid "057f8bca-d757-409b-820b-6eaa402e68d2")
 		)
 		(fp_line
 			(start 9.9 0)
@@ -6444,7 +6442,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "716090ba-107a-418a-ae2e-508c607a6b67")
+			(uuid "ac9cf8ff-4b3c-43d5-b5c8-4e4aee185ea4")
 		)
 		(fp_line
 			(start 11 -4)
@@ -6454,7 +6452,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cecb0639-ac10-4624-a0e8-f8ee25f312d0")
+			(uuid "806748d3-ed08-471f-9db3-ee8643931594")
 		)
 		(fp_arc
 			(start -10.4 -4)
@@ -6465,7 +6463,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "81ff246b-4ffd-419b-97d2-acb97208b90e")
+			(uuid "47cd853f-548d-4dd4-993c-eec75b5558df")
 		)
 		(fp_arc
 			(start 2.025 -2.9)
@@ -6476,7 +6474,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d18d1aa2-1c3c-4db2-8ebe-bc1a310ba18d")
+			(uuid "90772c1f-4e90-49d5-862a-b35de1250e7d")
 		)
 		(fp_arc
 			(start 9.9 -3.5)
@@ -6487,12 +6485,12 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cf2cda25-478b-4063-ab46-267fd49e5bc9")
+			(uuid "0c4b7da5-871b-4f0e-9529-4b1a6f214d1a")
 		)
 		(fp_text user "E"
 			(at 3.6 -3.3 0)
 			(layer "F.SilkS")
-			(uuid "645b5fa2-d5bb-4def-9abf-8b2eeefab711")
+			(uuid "acf6bee3-6163-4164-a061-e39fcdc3b5a4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6507,7 +6505,7 @@
 			(net 31 "5V")
 			(pinfunction "1")
 			(pintype "unspecified")
-			(uuid "d55657a4-eda3-49ba-89f5-c11a62cf4048")
+			(uuid "350ffd7e-6651-48e0-ad52-0e2b1c7b9665")
 		)
 		(pad "2" smd rect
 			(at 9 -1.55)
@@ -6516,7 +6514,7 @@
 			(net 30 "GND")
 			(pinfunction "2")
 			(pintype "unspecified")
-			(uuid "70533cd0-53e9-4736-90ba-2487645ee60c")
+			(uuid "36a9075a-04a9-4f57-a1ac-231d7e47425f")
 		)
 		(pad "3" smd rect
 			(at 8.75 -1.55)
@@ -6525,7 +6523,7 @@
 			(net 31 "5V")
 			(pinfunction "3")
 			(pintype "unspecified")
-			(uuid "05bc3c71-2a11-4bf8-b319-755ac65a5b85")
+			(uuid "b79ecd4e-350e-4e43-aecc-7e5ca342d781")
 		)
 		(pad "4" smd rect
 			(at 8.5 -1.55)
@@ -6534,7 +6532,7 @@
 			(net 30 "GND")
 			(pinfunction "4")
 			(pintype "unspecified")
-			(uuid "fb04fc21-ffab-4b3b-a570-1eee509f1d07")
+			(uuid "d95c9d07-b8f4-416e-b071-599e7a9243fb")
 		)
 		(pad "5" smd rect
 			(at 8.25 -1.55)
@@ -6543,7 +6541,7 @@
 			(net 31 "5V")
 			(pinfunction "5")
 			(pintype "unspecified")
-			(uuid "042373cc-09fa-4db1-9113-3b452063592d")
+			(uuid "bcb1950f-88f4-4ab8-bef7-7cbb87dc93cc")
 		)
 		(pad "6" smd rect
 			(at 8 -1.55)
@@ -6552,7 +6550,7 @@
 			(net 59 "RESET")
 			(pinfunction "6")
 			(pintype "unspecified")
-			(uuid "8f685b56-5a4c-4183-91fc-8651ccf420da")
+			(uuid "51672dbf-c51e-47b5-b541-9be18651ccf5")
 		)
 		(pad "7" smd rect
 			(at 7.75 -1.55)
@@ -6561,7 +6559,7 @@
 			(net 52 "ADCDAC.HPCOM")
 			(pinfunction "7")
 			(pintype "unspecified")
-			(uuid "22a6cd0f-b826-419e-972e-e1ad96a3f334")
+			(uuid "fe3802ea-3f9b-4f64-bde5-66579558343b")
 		)
 		(pad "8" smd rect
 			(at 7.5 -1.55)
@@ -6570,7 +6568,7 @@
 			(net 50 "ADCDAC.HPCOMFB")
 			(pinfunction "8")
 			(pintype "unspecified")
-			(uuid "8b1d9dcf-2a23-4873-9b88-24152660671f")
+			(uuid "063cab7e-5fc0-4cc8-a6d1-b84ab2c592f9")
 		)
 		(pad "9" smd rect
 			(at 7.25 -1.55)
@@ -6579,7 +6577,7 @@
 			(net 42 "ADCDAC.HPOUTL")
 			(pinfunction "9")
 			(pintype "unspecified")
-			(uuid "e1f8e7cf-1fa2-4d71-b017-bc6d0a4e9592")
+			(uuid "b857b567-5377-4b75-b9f7-57f6f9ed1ff0")
 		)
 		(pad "10" smd rect
 			(at 7 -1.55)
@@ -6588,7 +6586,7 @@
 			(net 49 "ADCDAC.HPOUTR")
 			(pinfunction "10")
 			(pintype "unspecified")
-			(uuid "aaa32d63-9a57-4bfc-8983-a0f9457c2c5b")
+			(uuid "867cc90e-7560-42e4-8840-024abccf0a32")
 		)
 		(pad "11" smd rect
 			(at 6.75 -1.55)
@@ -6597,7 +6595,7 @@
 			(net 44 "ADCDAC.HBIAS")
 			(pinfunction "11")
 			(pintype "unspecified")
-			(uuid "ccb544f9-eba4-424c-b97c-8d8ce5412094")
+			(uuid "5212468e-1d67-4697-a14a-02413bbca922")
 		)
 		(pad "12" smd rect
 			(at 6.5 -1.55)
@@ -6606,7 +6604,7 @@
 			(net 56 "PB4_PWM0")
 			(pinfunction "12")
 			(pintype "unspecified")
-			(uuid "c0f40058-e184-4b82-bec5-b052f4a3feec")
+			(uuid "bd6b81a8-f9f2-4811-bde1-77734f6d8c0d")
 		)
 		(pad "13" smd rect
 			(at 6.25 -1.55)
@@ -6615,7 +6613,7 @@
 			(net 75 "PB5_PWM1")
 			(pinfunction "13")
 			(pintype "unspecified")
-			(uuid "6284dc21-c36f-47e8-bc4d-d4c75657d43c")
+			(uuid "c885691d-f899-4b32-a844-f2b7c569591c")
 		)
 		(pad "14" smd rect
 			(at 6 -1.55)
@@ -6624,7 +6622,7 @@
 			(net 23 "ETH_LED_SPD")
 			(pinfunction "14")
 			(pintype "unspecified")
-			(uuid "ba3b6819-a54f-4e49-9ce2-28622a960cf4")
+			(uuid "d45eb801-1912-4563-ab2f-47bd9ac6050c")
 		)
 		(pad "15" smd rect
 			(at 5.75 -1.55)
@@ -6633,7 +6631,7 @@
 			(net 8 "ETH_LED_LINK")
 			(pinfunction "15")
 			(pintype "unspecified")
-			(uuid "93376bea-7f62-473f-98e3-3528d842736b")
+			(uuid "a219a923-66e4-4a03-a2cc-442ab20a7609")
 		)
 		(pad "16" smd rect
 			(at 5.5 -1.55)
@@ -6642,7 +6640,7 @@
 			(net 10 "UART0.RX")
 			(pinfunction "16")
 			(pintype "unspecified")
-			(uuid "1633481f-58ec-44e9-9778-fcc234f63bb0")
+			(uuid "49b6a800-1b6e-404d-a3ca-901a9c08119a")
 		)
 		(pad "17" smd rect
 			(at 5.25 -1.55)
@@ -6651,7 +6649,7 @@
 			(net 17 "UART0.TX")
 			(pinfunction "17")
 			(pintype "unspecified")
-			(uuid "91af39a3-ea7e-4474-ab10-f095a1638362")
+			(uuid "04db7958-010a-4d30-9ec6-0a1567379db3")
 		)
 		(pad "18" smd rect
 			(at 5 -1.55)
@@ -6660,7 +6658,7 @@
 			(net 33 "PB7_SDA")
 			(pinfunction "18")
 			(pintype "unspecified")
-			(uuid "37238041-341b-4203-a499-e166db04f5e3")
+			(uuid "42b915b2-c80a-4188-9cbe-f768fe01bc35")
 		)
 		(pad "19" smd rect
 			(at 4.75 -1.55)
@@ -6669,7 +6667,7 @@
 			(net 43 "PB6_SCK")
 			(pinfunction "19")
 			(pintype "unspecified")
-			(uuid "0d7cc011-3007-4254-837b-75f5be1d80b1")
+			(uuid "699cb301-5946-4019-b3b8-1def35577eba")
 		)
 		(pad "20" smd rect
 			(at 4.5 -1.55)
@@ -6678,7 +6676,7 @@
 			(net 34 "LRADC0")
 			(pinfunction "20")
 			(pintype "unspecified")
-			(uuid "91dfa6d9-1374-42b8-8d8f-8643adc36de6")
+			(uuid "859347a0-e155-4050-9770-a6c16fef7fa6")
 		)
 		(pad "21" smd rect
 			(at 4.25 -1.55)
@@ -6687,7 +6685,7 @@
 			(net 4 "UART2.CTS")
 			(pinfunction "21")
 			(pintype "unspecified")
-			(uuid "929da98c-5d43-4e8d-b5a5-61af557e47d1")
+			(uuid "8fbb42a8-f31d-4aa9-b3fd-0e0f0a37a052")
 		)
 		(pad "22" smd rect
 			(at 4 -1.55)
@@ -6696,7 +6694,7 @@
 			(net 25 "UART2.RX")
 			(pinfunction "22")
 			(pintype "unspecified")
-			(uuid "b75de54e-f7ed-48ab-a98e-d2697f0b1e76")
+			(uuid "4a860fe7-9249-46e9-b410-1609d9d2b809")
 		)
 		(pad "23" smd rect
 			(at 3.75 -1.55)
@@ -6705,7 +6703,7 @@
 			(net 19 "UART2.TX")
 			(pinfunction "23")
 			(pintype "unspecified")
-			(uuid "83c6e20a-c9ed-4d62-90ae-c47938275e31")
+			(uuid "597834ad-998e-4cb2-a25f-3f37d6eac14c")
 		)
 		(pad "32" smd rect
 			(at 1.5 -1.55)
@@ -6714,7 +6712,7 @@
 			(net 58 "ETH0.TX_P")
 			(pinfunction "32")
 			(pintype "unspecified")
-			(uuid "69014132-0af7-43e3-9391-57d74919fbf1")
+			(uuid "c093c8d6-8699-4c9c-8dc8-a8ca88fe33cc")
 		)
 		(pad "33" smd rect
 			(at 1.25 -1.55)
@@ -6723,7 +6721,7 @@
 			(net 41 "ETH0.RX_P")
 			(pinfunction "33")
 			(pintype "unspecified")
-			(uuid "99439cfc-08ca-448c-a663-95a359c1d910")
+			(uuid "c909f508-877d-429b-b75b-b55272c86ad3")
 		)
 		(pad "34" smd rect
 			(at 1 -1.55)
@@ -6732,7 +6730,7 @@
 			(net 71 "ETH0.TX_N")
 			(pinfunction "34")
 			(pintype "unspecified")
-			(uuid "58d37d93-83e0-4b4c-91c7-7b2a1f329f5c")
+			(uuid "dab99efa-b329-4c8f-9c91-5327d22464b2")
 		)
 		(pad "35" smd rect
 			(at 0.75 -1.55)
@@ -6741,7 +6739,7 @@
 			(net 69 "ETH0.RX_N")
 			(pinfunction "35")
 			(pintype "unspecified")
-			(uuid "1183b975-c210-48d1-845e-b84d43c85213")
+			(uuid "4ff184a1-d3a4-471a-b691-240786cfa667")
 		)
 		(pad "36" smd rect
 			(at 0.5 -1.55)
@@ -6750,7 +6748,7 @@
 			(net 5 "LCD0.CLK")
 			(pinfunction "36")
 			(pintype "unspecified")
-			(uuid "565ba90d-1267-4cce-b71b-a007765cf5d3")
+			(uuid "2e7c21d8-96ad-4dc9-b57a-5cb1ea1eab50")
 		)
 		(pad "37" smd rect
 			(at 0.25 -1.55)
@@ -6759,7 +6757,7 @@
 			(net 9 "LCD0.DE")
 			(pinfunction "37")
 			(pintype "unspecified")
-			(uuid "bec05afe-a995-4cb4-927c-9091c9639446")
+			(uuid "45be979e-fbcc-4ecb-a3c9-935a29c21860")
 		)
 		(pad "38" smd rect
 			(at 0 -1.55)
@@ -6768,7 +6766,7 @@
 			(net 3 "LCD0.HSYNC")
 			(pinfunction "38")
 			(pintype "unspecified")
-			(uuid "3744d37c-a27e-4ae3-9cda-28fefd0b93ce")
+			(uuid "15ba726e-002d-4bc4-9512-04f166c4b222")
 		)
 		(pad "39" smd rect
 			(at -0.25 -1.55)
@@ -6777,7 +6775,7 @@
 			(net 7 "CSI.MCSI_D1_N")
 			(pinfunction "39")
 			(pintype "unspecified")
-			(uuid "fd623f48-1238-44e9-991f-81b2064a5693")
+			(uuid "91828ac5-248d-44ed-b82c-2d45f6bb3e16")
 		)
 		(pad "40" smd rect
 			(at -0.5 -1.55)
@@ -6786,7 +6784,7 @@
 			(net 29 "LCD0.VSYNC")
 			(pinfunction "40")
 			(pintype "unspecified")
-			(uuid "287260f8-3bc4-4a70-9de8-4000f61458f1")
+			(uuid "e93fc876-7843-4c77-a968-df753eb54687")
 		)
 		(pad "41" smd rect
 			(at -0.75 -1.55)
@@ -6795,7 +6793,7 @@
 			(net 27 "CSI.MCSI_D1_P")
 			(pinfunction "41")
 			(pintype "unspecified")
-			(uuid "2410ae41-e27c-4c4e-8cf8-ba5330917843")
+			(uuid "c81a4a4c-b2d0-47c9-b26a-639d488c9c22")
 		)
 		(pad "42" smd rect
 			(at -1 -1.55)
@@ -6804,7 +6802,7 @@
 			(net 21 "CSI.MCSI_CK_N")
 			(pinfunction "42")
 			(pintype "unspecified")
-			(uuid "5bc8da90-bfcc-4ed3-ad2e-3b6ad4384167")
+			(uuid "c40be55d-d2de-4284-afae-7f5b0f52e556")
 		)
 		(pad "43" smd rect
 			(at -1.25 -1.55)
@@ -6813,7 +6811,7 @@
 			(net 11 "CSI.MCSI_D0_N")
 			(pinfunction "43")
 			(pintype "unspecified")
-			(uuid "195e87f1-407d-4758-82ee-a69846d33af8")
+			(uuid "adee42fb-7494-462c-9785-819affde74c1")
 		)
 		(pad "44" smd rect
 			(at -1.5 -1.55)
@@ -6822,7 +6820,7 @@
 			(net 16 "CSI.MCSI_CK_P")
 			(pinfunction "44")
 			(pintype "unspecified")
-			(uuid "1afcec29-9a62-416a-8c3f-40f902520c92")
+			(uuid "28dcd31e-b366-4e8f-89f1-59a5aef8e50f")
 		)
 		(pad "45" smd rect
 			(at -1.75 -1.55)
@@ -6831,7 +6829,7 @@
 			(net 20 "CSI.MCSI_D0_P")
 			(pinfunction "45")
 			(pintype "unspecified")
-			(uuid "9419f287-a8a8-4cc8-81a5-8c82ecf27872")
+			(uuid "ddae08ae-6746-4bdc-a25f-e82941185d0d")
 		)
 		(pad "46" smd rect
 			(at -2 -1.55)
@@ -6840,7 +6838,7 @@
 			(net 28 "CSI.MCSI_MCLK")
 			(pinfunction "46")
 			(pintype "unspecified")
-			(uuid "c4993881-5b29-42b9-9883-c9bbcc0ca225")
+			(uuid "bd0fd43f-a6fe-43b0-9f71-fb0bdaa118ba")
 		)
 		(pad "47" smd rect
 			(at -2.25 -1.55)
@@ -6849,7 +6847,7 @@
 			(net 14 "CSI.CSI_SCK")
 			(pinfunction "47")
 			(pintype "unspecified")
-			(uuid "057f7750-ada7-4c33-aca2-8e0c63ae1451")
+			(uuid "f0885e0b-3ca1-48db-9907-51c08d24c798")
 		)
 		(pad "48" smd rect
 			(at -2.5 -1.55)
@@ -6858,7 +6856,7 @@
 			(net 22 "CSI.CSI_SDA")
 			(pinfunction "48")
 			(pintype "unspecified")
-			(uuid "b638502d-135a-41ad-a964-95260f234b42")
+			(uuid "95867a51-60ca-403f-aa56-54cddf6e523d")
 		)
 		(pad "49" smd rect
 			(at -2.75 -1.55)
@@ -6867,7 +6865,7 @@
 			(net 45 "LCD_D2")
 			(pinfunction "49")
 			(pintype "unspecified")
-			(uuid "cb26c790-5e81-420b-91c3-f12ccc4f0dfe")
+			(uuid "1c99a298-46d9-4361-a9aa-efcfdee33fa1")
 		)
 		(pad "50" smd rect
 			(at -3 -1.55)
@@ -6876,7 +6874,7 @@
 			(net 102 "unconnected-(J301-Pad50)")
 			(pinfunction "50")
 			(pintype "unspecified")
-			(uuid "f23f870c-ac31-4c70-81ee-9d16ccafac0b")
+			(uuid "c387d154-f90e-43bc-8294-1518933b39b4")
 		)
 		(pad "51" smd rect
 			(at -3.25 -1.55)
@@ -6885,7 +6883,7 @@
 			(net 65 "LCD_D4")
 			(pinfunction "51")
 			(pintype "unspecified")
-			(uuid "4b59213c-203d-4e79-87e4-162ef302aea6")
+			(uuid "a7e34128-00dc-44ce-922b-0587363268d8")
 		)
 		(pad "52" smd rect
 			(at -3.5 -1.55)
@@ -6894,7 +6892,7 @@
 			(net 37 "LCD_D3")
 			(pinfunction "52")
 			(pintype "unspecified")
-			(uuid "cb8c33c3-0d60-4713-84eb-84666bab3f53")
+			(uuid "f6c173e1-c8ea-448e-9ddb-09478e449111")
 		)
 		(pad "53" smd rect
 			(at -3.75 -1.55)
@@ -6903,7 +6901,7 @@
 			(net 64 "LCD_D6")
 			(pinfunction "53")
 			(pintype "unspecified")
-			(uuid "c51baba6-4e5a-478c-80e5-4e00d28994be")
+			(uuid "a6b94aa2-bacc-4e77-9b40-61c5521cb406")
 		)
 		(pad "54" smd rect
 			(at -4 -1.55)
@@ -6912,7 +6910,7 @@
 			(net 62 "LCD_D5")
 			(pinfunction "54")
 			(pintype "unspecified")
-			(uuid "8b86cb41-cc07-4494-93ed-254f711f1b67")
+			(uuid "6c420892-110d-4a6e-aaa4-6219173867cf")
 		)
 		(pad "55" smd rect
 			(at -4.25 -1.55)
@@ -6921,7 +6919,7 @@
 			(net 63 "LCD_D10")
 			(pinfunction "55")
 			(pintype "unspecified")
-			(uuid "896341bd-4375-4035-a417-760d72db8715")
+			(uuid "8c94b3c7-b623-40fc-960b-1dd984495ec9")
 		)
 		(pad "56" smd rect
 			(at -4.5 -1.55)
@@ -6930,7 +6928,7 @@
 			(net 48 "LCD_D7")
 			(pinfunction "56")
 			(pintype "unspecified")
-			(uuid "e74fa777-7802-49a8-b605-25262417aada")
+			(uuid "761897f6-a906-4775-8f1b-cce162180578")
 		)
 		(pad "57" smd rect
 			(at -4.75 -1.55)
@@ -6939,7 +6937,7 @@
 			(net 60 "LCD_D12")
 			(pinfunction "57")
 			(pintype "unspecified")
-			(uuid "bb766c6d-7aa3-4915-85d5-b8596b3ebfaa")
+			(uuid "fadc0ad2-8e5a-4862-94f9-38c9d20a75bc")
 		)
 		(pad "58" smd rect
 			(at -5 -1.55)
@@ -6948,7 +6946,7 @@
 			(net 36 "LCD_D11")
 			(pinfunction "58")
 			(pintype "unspecified")
-			(uuid "78ef7990-9e11-4ef9-937f-b6c936c43162")
+			(uuid "0e60b490-a646-4d6c-8a42-d0c858d2e386")
 		)
 		(pad "59" smd rect
 			(at -5.25 -1.55)
@@ -6957,7 +6955,7 @@
 			(net 68 "LCD_D14")
 			(pinfunction "59")
 			(pintype "unspecified")
-			(uuid "fbb86699-7d81-462b-bb59-f91c71391be6")
+			(uuid "b67551ce-40ef-4772-929f-346429120ce2")
 		)
 		(pad "60" smd rect
 			(at -5.5 -1.55)
@@ -6966,7 +6964,7 @@
 			(net 77 "LCD_D13")
 			(pinfunction "60")
 			(pintype "unspecified")
-			(uuid "c1786b62-4b49-4522-89fd-72f870a21284")
+			(uuid "b980960f-972b-4066-9f25-0b0492f4ca08")
 		)
 		(pad "61" smd rect
 			(at -5.75 -1.55)
@@ -6975,7 +6973,7 @@
 			(net 35 "LCD_D18")
 			(pinfunction "61")
 			(pintype "unspecified")
-			(uuid "90449db8-db94-4bf2-b8ce-4f59e2877da8")
+			(uuid "dc5bf2ce-7560-4a6f-a097-26f074322bb8")
 		)
 		(pad "62" smd rect
 			(at -6 -1.55)
@@ -6984,7 +6982,7 @@
 			(net 51 "LCD_D15")
 			(pinfunction "62")
 			(pintype "unspecified")
-			(uuid "28617b14-b160-4103-8080-0261272962a3")
+			(uuid "466ddbb7-a215-4874-b439-b6cb424812d7")
 		)
 		(pad "63" smd rect
 			(at -6.25 -1.55)
@@ -6993,7 +6991,7 @@
 			(net 57 "LCD_D20")
 			(pinfunction "63")
 			(pintype "unspecified")
-			(uuid "a2bd636d-3f1c-4ed1-9c56-d3d07e87c551")
+			(uuid "b882dcac-9298-45af-bf17-8a78d3f83bfd")
 		)
 		(pad "64" smd rect
 			(at -6.5 -1.55)
@@ -7002,7 +7000,7 @@
 			(net 32 "LCD_D19")
 			(pinfunction "64")
 			(pintype "unspecified")
-			(uuid "fedacc85-eea8-4516-9f95-86aea819b060")
+			(uuid "5deff2d7-172b-4958-ace1-0ca0adfac08f")
 		)
 		(pad "65" smd rect
 			(at -6.75 -1.55)
@@ -7011,7 +7009,7 @@
 			(net 38 "LCD_D22")
 			(pinfunction "65")
 			(pintype "unspecified")
-			(uuid "b81e48a7-6c13-4e29-9738-47da94f0a3e8")
+			(uuid "edbef7ad-d06d-417a-a95d-14dd03fa1b4a")
 		)
 		(pad "66" smd rect
 			(at -7 -1.55)
@@ -7020,7 +7018,7 @@
 			(net 55 "LCD_D21")
 			(pinfunction "66")
 			(pintype "unspecified")
-			(uuid "dc61fb7b-6f7d-4f4e-a734-10764edd2481")
+			(uuid "a5c4f809-c487-41e9-81bc-103a05279960")
 		)
 		(pad "67" smd rect
 			(at -7.25 -1.55)
@@ -7029,7 +7027,7 @@
 			(net 89 "SDC1.CLK")
 			(pinfunction "67")
 			(pintype "unspecified")
-			(uuid "ca95be8f-e7b3-440b-8921-b6f1820f060f")
+			(uuid "cf1624f1-e18e-45d5-9757-829f58cbb981")
 		)
 		(pad "68" smd rect
 			(at -7.5 -1.55)
@@ -7038,7 +7036,7 @@
 			(net 66 "LCD_D23")
 			(pinfunction "68")
 			(pintype "unspecified")
-			(uuid "6532add8-ce19-4d0e-81ee-57c980149077")
+			(uuid "49a1b0d7-b083-4710-89b9-a9a1f4bc1152")
 		)
 		(pad "69" smd rect
 			(at -7.75 -1.55)
@@ -7047,7 +7045,7 @@
 			(net 94 "SDC1.D0")
 			(pinfunction "69")
 			(pintype "unspecified")
-			(uuid "498e07ca-b8d1-465d-9e81-56b5330d1f4b")
+			(uuid "1f8a960c-4b32-407a-a619-151e341d8622")
 		)
 		(pad "70" smd rect
 			(at -8 -1.55)
@@ -7056,7 +7054,7 @@
 			(net 91 "SDC1.CMD")
 			(pinfunction "70")
 			(pintype "unspecified")
-			(uuid "0035dcc2-4d65-45e7-98d6-7077cde1ca90")
+			(uuid "0e95e084-d29f-4961-a23b-d44da50d5ad3")
 		)
 		(pad "71" smd rect
 			(at -8.25 -1.55)
@@ -7065,7 +7063,7 @@
 			(net 90 "SDC1.D2")
 			(pinfunction "71")
 			(pintype "unspecified")
-			(uuid "fdb9882e-a67f-43be-87b8-49c68736c315")
+			(uuid "5a0f4b2a-576b-46c7-be8f-4f854b59e953")
 		)
 		(pad "72" smd rect
 			(at -8.5 -1.55)
@@ -7074,7 +7072,7 @@
 			(net 97 "SDC1.D1")
 			(pinfunction "72")
 			(pintype "unspecified")
-			(uuid "a0ab2f3b-3b35-4699-b5a4-cbf3945d7acc")
+			(uuid "e47500b0-e19e-4bee-9c71-f0c4bdc435ed")
 		)
 		(pad "73" smd rect
 			(at -8.75 -1.55)
@@ -7083,7 +7081,7 @@
 			(net 92 "USB.USB_P")
 			(pinfunction "73")
 			(pintype "unspecified")
-			(uuid "c5f8bfea-9774-4cf4-9538-c8136c127100")
+			(uuid "298d49d9-487a-4c73-b7de-8ae294a37d1c")
 		)
 		(pad "74" smd rect
 			(at -9 -1.55)
@@ -7092,7 +7090,7 @@
 			(net 103 "USB.USB_ID")
 			(pinfunction "74")
 			(pintype "unspecified")
-			(uuid "fbc5455b-ba8b-4f7a-b406-f6dc9e1e1b36")
+			(uuid "786d44c6-c2d0-4432-9530-a5efb149d9a9")
 		)
 		(pad "75" smd rect
 			(at -9.25 -1.55)
@@ -7101,7 +7099,7 @@
 			(net 93 "USB.USB_N")
 			(pinfunction "75")
 			(pintype "unspecified")
-			(uuid "d0ddbb5e-8449-4819-92b6-18e2d6ed000a")
+			(uuid "33f74436-5242-4fa6-bbf5-03ee921653e0")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
