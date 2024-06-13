@@ -27,3 +27,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+
+OS/download/
+OS/*/output/*
+OS/*~
+OS/br.log
+OS//images/

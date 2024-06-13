@@ -1,0 +1,3 @@
+[submodule "OS/buildroot"]
+	path = OS/buildroot
+	url = https://github.com/afonsus1997/buildroot
